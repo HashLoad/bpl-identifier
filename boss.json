@@ -1,0 +1,11 @@
+{
+	"name": "bpl-identifier",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./",
+	"projects": [
+		"BplIdentifier.dproj"
+	],
+	"dependencies": {}
+}
