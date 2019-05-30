@@ -6,11 +6,6 @@ program BplIdentifier;
 uses
   System.SysUtils;
 
-procedure PackageInfoProc(const Name: string; NameType: TNameType; Flags: Byte; Param: Pointer);
-begin
-
-end;
-
 var
   LBpl: string;
   LFlag: Integer;
@@ -30,6 +25,4 @@ begin
     WriteLn('Design time: ' + LBpl)
   else
     WriteLn('Run time: ' + LBpl);
-
-
 end.
