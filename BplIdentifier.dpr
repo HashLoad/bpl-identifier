@@ -4,7 +4,12 @@ program BplIdentifier;
 {$R *.res}
 
 uses
-  System.SysUtils;
+{$IFDEF VER220}
+  SysUtils
+{$ELSE}
+  System.SysUtils
+{$ENDIF}
+  ;
 
 var
   LBpl: string;
